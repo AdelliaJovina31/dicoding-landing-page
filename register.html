@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Account</title>
+    <link rel="stylesheet" href="styles/register.css" />
+
+    <!-- Link to "Quicksand" font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <main>
+        <div class="register-wrapper">
+            <form action="login.html">
+                <div class="name">
+                    <div class="input-field">
+                        <input type="text" required />
+                        <label>First Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required />
+                        <label>Last Name</label>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <input type="email" required />
+                    <label>Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required />
+                    <label>Password</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required />
+                    <label>Confirm Password</label>
+                </div>
+                <button type="submit">Register</button>
+                <div class="goToLogin">
+                    <p>Already have account? <a href="login.html">Login here</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

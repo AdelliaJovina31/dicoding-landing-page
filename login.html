@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles/login.css" />
+
+    <!-- Link to "Quicksand" font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body class="login">
+    <header>
+        <h1>Login</h1>
+    </header>
+    <main>
+        <div class="login-wrapper">
+            <form action="index.html">
+                <div class="input-field">
+                    <input type="text" required />
+                    <label>Username</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required />
+                    <label>Password</label>
+                </div>
+                <div class="forgot-password">
+                    <label class="remember">
+                        <input type="checkbox" />
+                        <p>Remember me</p>
+                    </label>
+                    <a href="forgot_password.html">Forgot password?</a>
+                </div>
+
+                <button type="submit">Log In</button>
+                <div class="register">
+                    <p>Don't have any account yet? <a href="register.html">Create an account</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
